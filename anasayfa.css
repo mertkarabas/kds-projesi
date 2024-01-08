@@ -1,0 +1,214 @@
+* {box-sizing: border-box;
+
+}
+ body{
+    padding:0;
+    margin:0;
+    background-image: url("resim3.jpg");
+    
+
+
+ }
+ 
+ #Başlık{background-color: black;
+        
+        height:60px;
+        width: 100%;
+        position:sticky;
+        top:0;
+        z-index: 1;
+}
+
+@font-face {
+
+    font-family:'headerbaslik';
+
+    src:url("Travelista.ttf") format("truetype")
+
+
+}
+
+a.headeryazi{
+    color:rgba(209,101,39,255);
+    font-size: 30px;
+    font-family:headerbaslik;
+    margin-left:15px;
+    margin-top:10px;
+
+
+}
+
+font{color:whitesmoke;
+    font-size: 20px;
+    margin-left:4.5px;
+    
+
+
+
+}
+
+section{
+    width:60%;
+    margin:auto;
+    margin-top:150px;
+    height:400px;
+   
+}
+
+#giris{
+    float:left;
+    background-color:rgba(209,101,39,255);
+    width:50%;
+    height:100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 3px 3px 4px rgb(124, 111, 111);
+    font-family: headerbaslik;
+    padding:5px;
+}
+
+
+
+
+#kayit{
+    float:left;
+    background-color:rgb(173, 185, 198);
+    width:50%;
+    height:100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 3px 3px 4px rgb(124, 111, 111);
+    font-family: headerbaslik;
+    padding:5px;
+
+}
+
+
+button{
+    font-family:headerbaslik;
+    color:rgba(209,101,39,255);
+    
+}
+
+#menüler{
+    background-color:black;
+    width: 17%;
+    height: 2950px;
+    float:left;
+    
+    
+    
+    
+}
+
+
+#resimalani{
+    
+    height:120px;
+}
+
+
+a.menüa{
+ text-decoration: none;
+ font-family:headerbaslik;
+ color:white;
+ border-bottom:1px solid white;
+ height:80px;
+ line-height: 50px;
+ display:block;
+ width:100%;
+ padding-bottom: 10px;
+ 
+ 
+
+ 
+
+}
+a.menüa:hover{
+    background-color: white;
+    color:rgba(209,101,39,255);
+}
+#cikisbutonu{float:right;
+margin-top:15px;
+margin-right:15px;}
+
+
+#columnchart_material{float:left;
+margin-top:20px;
+margin-left:30px;}
+
+#Anthony_chart_div{
+    float:left;
+margin-left:20px;
+margin-top:20px;}
+
+
+
+#tablo{display: inline-block; color:green;
+background-color: white; float:left; margin-left:60px; margin-top:50px;
+}
+
+
+#tablo2{display: inline-block; color:green;
+    background-color: white; float:left; margin-left:100px; margin-top:50px;
+    }
+
+    #ürünlistesi{color:white;
+    background-color:rgba(209,101,39,255);
+height: 400px;
+width:600px;
+font-family:headerbaslik;
+
+margin-left: 475px;
+margin-top:70px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+box-shadow: 3px 3px 4px rgb(124, 111, 111);
+padding-top:60px;
+padding:20px;
+font-size: 35px;
+}
+#tablolar {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tablolar td, #tablolar th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  #tablolar tr{background-color: #f2f2f2;}
+  
+  #tablolar tr:hover {background-color: #ddd;}
+  
+  #tablolar th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgba(209,101,39,255);
+    color: white;
+}
+
+
+
+#veriekleme{
+    color:White;
+    font-family:headerbaslik;
+    margin-left:550px;
+    background-color: rgba(209,101,39,255);
+    width:500px;
+    padding-left:150px;
+    margin-top:70px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 3px 3px 4px rgb(124, 111, 111);
+    
+}
+
+
